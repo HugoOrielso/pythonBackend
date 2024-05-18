@@ -3,6 +3,7 @@ from flask_cors import CORS
 import numpy as np
 from fractions import Fraction
 
+
 app = Flask(__name__)
 CORS(app)  
 
