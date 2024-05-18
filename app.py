@@ -241,7 +241,8 @@ def tipo_matriz():
 
         return jsonify({
             "tipo": tipo,
-            "detalles": resultados
+            "detalles": resultados,
+            "status": "success"
         })
     
     except Exception as e:
