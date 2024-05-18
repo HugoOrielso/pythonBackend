@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-18T21:05:40Z
+services:
+- type: web
+  name: pythonBackend
+  runtime: python
+  repo: https://github.com/HugoOrielso/pythonBackend
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn app:app
+version: "1"
